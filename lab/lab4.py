@@ -32,17 +32,12 @@ def add_to_collection(collection, text, filename):
     )
 
 pdf_dir = Path("pdfFiles")
-txt_dir = Path("dataFiles")
-txt_dir.mkdir(exist_ok=True)
 
 for pdf_file in pdf_dir.glob("*.pdf"):
     reader = PdfReader(str(pdf_file))
     text = ""
     for page in reader.pages:
         text += page.extract_text() or ""
-    txt_file = txt_dir / (pdf_file.stem + ".txt")
-    with open(txt_file, "w", encoding="utf-8") as f:
-        f.write(text)
     add_to_collection(collection, text, pdf_file.stem)
 
 if 'messages' not in st.session_state:
