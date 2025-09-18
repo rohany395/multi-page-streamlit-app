@@ -61,7 +61,7 @@ for msg in st.session_state.messages:
     chat_msg=st.chat_message(msg['role'])
     chat_msg.write(msg['content'])
 
-topic=st.sidebar.selectbox('Topic',('Text Mining','GenAI'))
+topic=st.sidebar.selectbox('Topic',('Text Mining','GenAI', 'Data Science'))
 openai_client = st.session_state.openai_client
 response=openai_client.embeddings.create(
     input=topic,
