@@ -1,0 +1,317 @@
+GRADUATE COURSE SYLLABUS 1 
+ 
+ 
+ 
+ IST 688 – Building Human -Centered AI Applications  
+ 
+Instructor : Jeffrey S. Saltz       
+Office : 233 Hinds Hall      Email : jsaltz@syr.edu    
+Office Hours:  TBD 
+Course Time :  TBD     Classroom :  TBD 
+Course Description:  
+Learn to build Generative AI applications leveraging large language models. Through hands -on projects, 
+students will use libraries and APIs to create conversational agents, Q&A bots, and goal -oriented 
+assistants. Topics covered include prompt engineering, AI conversational memory, output evaluation, 
+and responsible AI practices.  
+ 
+Additional Course Description  
+This hands -on course teaches techniques for developing and deploying intelligent applications powered 
+by large language models. Students will gain technical skills in prompt engineering, knowledge 
+enhancement, conversational interface design, and evaluatin g model outputs. Responsible AI 
+development practices related to ethics, bias mitigation, and accessibility will be woven throughout. No 
+prior AI experience required. Final projects provide an opportunity to apply concepts to build an AI 
+system.  
+ 
+Prerequisite / Co -requisite:  
+Knowledge of Python Programming or IST 687  
+ 
+Audience :  
+Any graduate student interested in understanding how to build and deploy Gen AI applications.  
+Credits:  
+3 credits  
+Course Fees and/or Costs  
+Students will be responsible for LLM (ex. OpenAI ) usage fees.   
+This should be less than $10 (but it depends on how you are using the LLMs, and which LLMs you use).  
+  GRADUATE COURSE SYLLABUS 2 
+ 
+ 
+ 
+ Learning Objectives:  
+After taking this course, students will be able to:   
+1. Explain concepts of large language models    
+2. Engineer effective prompts by applying techniques for tone, formatting, conditional 
+logic, and mitigating risks.  
+3. Develop applications leveraging large language model APIs and libraries.  
+4. Implement memory and knowledge techniques such as retrieval augmentation to 
+enhance application capabilities.  
+5. Describe how applications can integrate LLMs (Large Language Models) with actions 
+(such as sending an email) and external data stores (databases, data services)  
+6. Build ethical AI systems by considering potential biases, harms, and real -world impacts.  
+ 
+Required Texts / Supplies:  
+There is no required textbook. However, the following will be helpful:  
+1. OpenAI: https://platform.openai.com/docs/introduction  
+2. Openai -cookbook (python): https://github.com/openai/openai -python   
+3. Streamlit: https://docs.streamlit.io/get -started  
+4. Langchain: https://python.langchain.com/v0.2/docs/introduction/  
+5. Ollama: https://github.com/ollama/ollama  
+Course Requirements and Expectations:  
+● 5 Labs – done in class.  
+● 7 HW s – due the night before  the start of the next class  
+● Team Topic Presentation  
+● Team Project – details provided later in the semester [group of 2 people]  
+● 2 in class exams  
+● Class participation  
+Grading:  
+● 5 Labs: 5 points (each 1 point)  
+● 7 HW: 2 0 points ( each worth 1 - 4 pts ) 
+● Topic Presentation: 1 5 points [4 people] – half presentation, half class assignment  
+● Final Project: 25 points [group of 2 people]  
+● Exam 1: 20 points  
+● Exam 2: 1 0 points  
+● Class participation: 5 points  
+ GRADUATE COURSE SYLLABUS 3 
+ 
+ 
+ 
+  
+ 
+Grading Table  
+Grades  Grade Points 
+/Credit  Percentage 
+Range  Total  
+Points  
+A 4.000  93% - 100%  93-100 
+A- 3.66  90% - 92%  90-92 
+B+ 3.33  87% - 89%  87-89 
+B 3.00  83% - 86%  83-86 
+B- 2.66  80% - 82%  80-82 
+C+ 2.33  77% - 79%  77-79 
+C 2.00  73% - 76%  73-76 
+C- 1.66  70% - 72%  70-72 
+F 0 0% - 69%  0-69 
+* source: http://www.syr.edu/registrar/students/grades/faq.html  
+1Grades of D and D - may not be assigned to graduate students.  
+ 
+Course Specific Policies on attendance, late work, make up work, examinations if outside 
+normal class time, etc.:  
+● Registration : Students must register prior to the first class or may be restricted from 
+registering. If you are registered but not present at the first class, you run the risk of 
+being administratively deregistered from this course so that your seat can be given to 
+a student on the wait list.  
+● Late Policy for Assignments : To ensure fast return, all assignments should be 
+submitted on time. One -hour grace period is given to accommodate any incidents 
+around deadline. Late policy will be enforced starting from the second hour. You are 
+free to discuss the assignments with your  classmates, but you must write up the 
+report all by yourself. Plagiarism cases will be reported to the university.  
+● Communications: This course will use Blackboard as the main communication 
+platforms for class exercises and notifications. Students are required to check their 
+Blackboard accounts on a regular basis.  
+ 
+ 
+  GRADUATE COURSE SYLLABUS 4 
+ 
+ 
+ 
+ Course Schedule:    
+ 
+Week  Date  Topic  Required Assignment  
+Week 1  Aug 29  Introduction to LLMs,  
+ HW 1  
+Week 2  Sep 5  Basic apps (using OpenAI API and 
+streamlit)  HW 2  
+Week 3  Sep 12  Basic Conversational Agents (using 
+OpenAI API; streamlit, short term 
+memory) ; Prompt Engineering  HW 3  
+Week 4  Sep 19  Retrieval augmentation (RAG)  HW 4  
+Week 5  Sep 26  Using Functions within LLMs  
+Overview of student topic presentations  HW 5  
+Select Presentation Topic  
+Week 6  Oct 3  AI in the real world  
+Course Review  HW 6    
+Work on group 
+presentation  
+Start working on your 
+project  
+Week 7  Oct 10  Presenting HW 7  
+Responsible and Ethical AI  
+How to test / regression test   HW 7 – with  NO coding  
+Study for exam  
+Week 8  Oct 17  Exam  
+Work on Student Presentations  Work on Student 
+Presentations  
+Week 9  Oct 24  Student Topic Presentations:  
+   Long term memory  
+   Higher level APIs (langchain)  Final Project -  
+proposal due  
+Week 10  Oct 31  Student Topic Presentations:  
+   Running a (smaller) model locally   
+   Model Fine Tuning   
+Week 11  Nov 7  Student Topic Presentations:  
+   LLMs and audio (talking to chatbots)  
+   LLMs and Images/Videos  Final Project – Approach 
+& milestones  
+Week 12  Nov 14  Student Topic Presentations:  
+    Graph RAG or regression Testing  
+    Multi -Agent Systems or AGI   
+Week 13  Nov 21  Exam 2  
+Project work  Final Project -  
+Milestone update  
+ Nov 28  No Class - Thanksgiving   
+Week 14  Dec 5  Project Presentations  Final Project  
+ GRADUATE COURSE SYLLABUS 5 
+ 
+ 
+ 
+ SYRACUSE UNIVERSITY STUDENT POLICIES & SERVICES   
+  
+iSchool Values   
+Excellence; Discovery & Innovation; Integrity; Diversity & Inclusion; Global Citizenship and 
+Engagement   
+  
+Syracuse University has a variety of policies designed to guarantee that students live and 
+study in a community respectful of their needs and those of fellow students.   These 
+statements are an official part of this course syllabus.    
+  
+University Attendance Policy   
+Attendance in classes is expected in all courses at Syracuse University. Students are expected to 
+arrive on campus in time to attend the first meeting of all classes for which they are 
+registered.   Students who do not attend classes starting with the first  scheduled meeting may 
+be academically withdrawn as not making progress toward degree by failure to attend.    
+  
+Academic Integrity Policy   
+As a pre -eminent and inclusive student -focused research institution, Syracuse University 
+considers academic integrity at the forefront of learning, serving as a core value and guiding 
+pillar of education. Syracuse University’s Academic Integrity Policy pro vides students with the 
+necessary guidelines to complete academic work with integrity throughout their studies. 
+Students are required to uphold both course -specific and university -wide academic integrity 
+expectations such as crediting your sources, doing y our own work, communicating honestly, 
+and supporting academic integrity. The full Syracuse University Academic Integrity Policy can be 
+found by visiting class.syr.edu , selecting, “Academic Integrity,” and “Expectations and Policy.”   
+  
+Upholding Academic Integrity includes the protection of faculty’s intellectual property. 
+Students should not upload, distribute, or share instructors’ course materials, including 
+presentations, assignments, exams, or other evaluative materials without perm ission. Using 
+websites that charge fees or require uploading of course material (e.g., Chegg, Course Hero) to 
+obtain exam solutions or assignments completed by others, which are then presented as your 
+own violates academic integrity expectations in this co urse and may be classified as a Level 3 
+violation. All academic integrity expectations that apply to in -person assignments, quizzes, and 
+exams also apply online.   
+  
+Students found in violation of the policy are subject to grade sanctions determined by the 
+course instructor and non -grade sanctions determined by the School or College where the 
+course is offered. Students may not drop or withdraw from courses in which th ey face a 
+suspected violation. Any established violation in this course may result in course failure 
+regardless of violation level.   
+  
+Use of Artificial Intelligence in Course   
+Based on the specific learning outcomes and assignments in this course, artificial intelligence is 
+permitted on the following: Labs, HW, Projects. See each assignment for more information GRADUATE COURSE SYLLABUS 6 
+ 
+ 
+ 
+ about what artificial intelligence tools are permitted and to what extent, as well as citation 
+requirements. If no instructions are provided for a specific assignment, then no use of any 
+artificial intelligence tool is permitted. Any AI use beyond that whi ch is detailed in course 
+assignments is explicitly prohibited except when documented permission is granted.  If in doubt, 
+ask. 
+ 
+Academic Integrity Online: Conduct of Online Assessments   
+All academic integrity expectations that apply to in -person quizzes and exams also apply to 
+online quizzes and exams. In this course, all work submitted for quizzes and exams must be 
+yours alone. Discussing quiz or exam questions with anyone during the qui z or exam period 
+violates academic integrity expectations for this course.   
+  
+Using websites that charge fees or require uploading of course material (e.g., Chegg, Course 
+Hero) to obtain exam solutions or assignments completed by others and present the work as 
+your own violates academic integrity expectations in this course and may be classified as a 
+Level 3 violation, resulting in suspension or expulsion from Syracuse University   
+  
+Religious Observances Notification and Policy   
+Syracuse University’s Religious Observances Policy  recognizes the diversity of faiths 
+represented in the campus community and protects the rights of students, faculty, and staff to 
+observe religious holy days according to their traditions. Under the policy, students are given an 
+opportunity to make up any examination, study, or work requirements that may be missed due 
+to a religious observance, provided they notify their instructors no later than the academic drop 
+deadline. For observances occurring before the drop deadline, notification is required at leas t 
+two academic days in advance. Students may enter their observances in MySlice under Student 
+Services/Enrollment/My Religious Observances/Add a Notification.   
+  
+Disability -Related Accommodations   
+Syracuse University values diversity and inclusion; we are committed to a climate of mutual 
+respect and full participation. There may be aspects of the instruction or design of this course 
+that result in barriers to your inclusion and full participation in  this course. I invite any student 
+to contact me to discuss strategies and/or accommodations (academic adjustments) that may 
+be essential to your success and to collaborate with the Center for Disability Resources (CDR) in 
+this process.   
+  
+If you would like to discuss disability -accommodations or register with CDR, please visit  Center 
+for Disability Resources . Please call (315) 443 -4498 or email  disabilityresources@syr.edu  for 
+more detailed information.   
+  
+The CDR is responsible for coordinating disability -related academic accommodations and will 
+work with the student to develop an access plan. Since academic accommodations may require 
+early planning and generally is not provided retroactively, please contac t CDR as soon as 
+possible to begin this process.   
+  GRADUATE COURSE SYLLABUS 7 
+ 
+ 
+ 
+  
+Discrimination or Harassment   
+Federal and state law, and University policy prohibit discrimination and harassment based on 
+sex or gender (including sexual harassment, sexual assault, domestic/dating violence, stalking, 
+sexual exploitation, and retaliation). If a student has been harass ed or assaulted, they can 
+obtain confidential counseling support, 24 -hours a day, 7 days a week, from the  Sexual and 
+Relationship Violence Response Team  at the Counseling Center (315 -443-8000, Barnes Center 
+at The Arch, 150 Sims Drive, Syracuse, New York 13244). Incidents of sexual violence or 
+harassment can be reported non -confidentially to the University’s Title IX Officer (Sheila 
+Johnson Willis, 315 -443-0211,  titleix@syr.edu , 005 Steele Hall). Reports to law enforcement can 
+be made to the University’s Department of Public Safety (315 -443-2224, 005 Sims Hall), the 
+Syracuse Police Department (511 South State Street, Syracuse, New York, 911 in case of 
+emergency or 315 -435-3016 t o speak with the Abused Persons Unit), or the State Police (844 -
+845-7269). I will seek to keep information you share with me private to the greatest extent 
+possible, but as a professor I have mandatory reporting responsibilities to share information 
+regard ing sexual misconduct, harassment, and crimes I learn about with the University’s Title IX 
+Officer to help make our campus a safer place for all.   
+  
+Health and Wellness   
+Mental health and overall well -being are significant predictors of academic success. As such it is 
+essential that during your college experience you develop the skills and resources effectively to 
+navigate stress, anxiety, depression, and other mental heal th concerns. Please familiarize 
+yourself with the range of resources the Barnes Center provides ( https://ese.syr.edu/bewell/ ) 
+and seek out support for mental health concerns as needed. Counseling services are available 
+24/7, 365 days, at 315 -443-8000.   
+  
+Course Evaluations   
+At the end of the term, the iSchool will ask you to share course feedback through EvaluationKIT  
+[https://coursefeedback.syr.edu]. Log in to EvaluationKIT  using your NetID and password. 
+Please take the time to share your feedback about this course and your experience in it; all 
+ratings and comments are completely anonymous.   The iSchool carefully reviews your 
+feedback. Our instructors use this feedback to f ine tune course delivery and instruction; our 
+professors of record use this feedback to fine tune course content and assignments. All 
+feedback is factored into iSchool decisions about course, program, and instructor 
+development.   
+  
+Use of Blackboard   
+This class will use the Blackboard Learning Management to house the syllabus, course content, 
+links to external course materials, assignments, quizzes, exams, feedback, and grades. Note 
+when submitting materials that the University’s Blackboard Learning Ma nagement System is on 
+Eastern Time.   
+Information about Blackboard is available on  Answers Blackboard ; alternatively, you can 
+contact Information Technology Services by sending an email to  help@syr.edu,  calling 
+315.443.2677, or in -person at the ITS Service Center, located at 1 -227 CST in the Life Sciences GRADUATE COURSE SYLLABUS 8 
+ 
+ 
+ 
+ Complex. Business hours for the Service Center can be found on the ITS Website 
+at http://its.syr.edu/its_service_center/   
+  
+Academic work    
+Academic work completed during a semester may be used by professors for educational 
+purposes in courses during the semester. Students’ registration and continued enrollment 
+constitute consent for this purpose. Before using students’ work for educational purposes in 
+subsequent semesters, professors will either request students’ permission in writing or render 
+the work anonymous by removing all personal identification.   
+  
+  

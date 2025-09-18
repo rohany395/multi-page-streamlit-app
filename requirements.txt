@@ -1,2 +1,8 @@
 streamlit
 openai
+chromadb
+pysqlite3-binary
+anthropic
+google-generativeai
+PyPDF2
+proyobuf==3.20
