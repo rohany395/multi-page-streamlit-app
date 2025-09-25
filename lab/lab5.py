@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+from openai import OpenAI
 import requests
 import json
 
@@ -12,6 +12,8 @@ if 'openai_api_key' not in st.session_state:
     st.session_state.openai_api_key = st.secrets["API_KEY"]
 if 'weather_api_key' not in st.session_state:
     st.session_state.weather_api_key = st.secrets["OPEN_WEATEHER_API"]
+
+client = OpenAI(api_key=st.session_state.openai_api_key)
 
 def get_current_weather(location, api_key):
     """Get current weather for a given location"""
@@ -58,8 +60,6 @@ def weather_tool_function(location):
 
 def get_clothing_suggestions(user_input):
     """Get clothing suggestions using OpenAI with weather tool"""
-    if not st.session_state.openai_api_key or not st.session_state.weather_api_key:
-        return "Please provide both OpenAI and OpenWeatherMap API keys in the sidebar."
     
     # Define the weather tool for OpenAI
     tools = [
@@ -84,7 +84,7 @@ def get_clothing_suggestions(user_input):
     
     try:
         # First call to OpenAI with the user input and tool
-        response = openai.chat.completions.create(
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {
@@ -113,7 +113,7 @@ def get_clothing_suggestions(user_input):
             
             if weather_data:
                 # Second call to OpenAI with weather information
-                second_response = openai.chat.completions.create(
+                second_response = client.chat.completions.create(
                     model="gpt-3.5-turbo",
                     messages=[
                         {
