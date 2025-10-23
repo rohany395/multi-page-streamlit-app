@@ -32,7 +32,7 @@ if 'lab6_agent' not in st.session_state:
 @st.cache_resource
 def initialize_vectorstore():
     """Initialize vector database from CSV"""
-    CSV_PATH = "/workspaces/multi-page-streamlit-app/lab/arxiv_papers_extended_20251019_150748.csv"
+    CSV_PATH = "lab/arxiv_papers_extended_20251019_150748.csv"
     PERSIST_DIR = "LAB6_vector_db"
 
     os.makedirs(PERSIST_DIR, exist_ok=True)
