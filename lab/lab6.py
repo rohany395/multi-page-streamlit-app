@@ -123,7 +123,7 @@ if st.session_state.lab6_agent is None:
         # Initialize LLM
         llm = ChatOpenAI(
             model=gpt_version,
-            api_key=st.secrets["openai_api_key"],
+            api_key=st.secrets["API_KEY"],
             temperature=0
         )
         
