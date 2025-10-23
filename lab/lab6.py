@@ -1,3 +1,6 @@
+# I chose langchain over responses api as there are limitations to using vector db with responses api.
+# Hence reducing the ability to query csv file effectively.
+
 import streamlit as st
 import os
 import re
